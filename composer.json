@@ -8,7 +8,7 @@
         "guzzlehttp/guzzle": "~6.0",
         "netresearch/jsonmapper": "~0.11",
         "monolog/monolog": "~2.0.2.",
-        "vlucas/phpdotenv": "~3.6.3",
+        "vlucas/phpdotenv": "^3.6",
 	    "tightenco/collect": "5.8.*",
         "league/flysystem": "^1.0"
     },
