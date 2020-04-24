@@ -10,7 +10,7 @@ class DotEnvConfiguration extends AbstractConfiguration
      */
     public function __construct($path = '.')
     {
-        $dotenv = new \Dotenv\Dotenv($path);
+        $dotenv = Dotenv\Dotenv::createImmutable($path);
         $dotenv->load();
         $dotenv->required(['CONFLUENCE_HOST']);
 
